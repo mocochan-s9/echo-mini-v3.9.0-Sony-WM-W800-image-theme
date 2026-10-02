@@ -7,24 +7,33 @@ Z_POWERON*_(0,0)			IMG_0002_320x170 to 0038
 CKEY*_(*,*)					IMG_0052_42x56   to 0061
 BKTIMEX_(0,0)				IMG_0066_320x170
 														/*		 offset	prefix */
-USB_BACKGROUND_(0,0)		IMG_0068					/* white  0000         */
-BUSB_BACKGROUND_(0,0)		IMG_0378					/* black  0310  B      */
-C_USB_BACKGROUND_(0,0)		IMG_0688					/* pink   0620  C_     */
-D_USB_BACKGROUND_(0,0)		IMG_0998					/* gold   0930  D_     */
-E_USB_BACKGROUND_(0,0)		IMG_1308					/* blue   1240  E_     */
+USB_BACKGROUND_(0,0)		IMG_0068_320x170			/* white  0000         */
+BUSB_BACKGROUND_(0,0)		IMG_0378_320x170			/* black  0310  B      */
+C_USB_BACKGROUND_(0,0)		IMG_0688_320x170			/* pink   0620  C_     */
+D_USB_BACKGROUND_(0,0)		IMG_0998_320x170			/* gold   0930  D_     */
+E_USB_BACKGROUND_(0,0)		IMG_1308_320x170			/* blue   1240  E_     */
 
 USB_BACKGROUND_(0,0)		IMG_0068_320x170
 MAINMENUPAGE*_(0,0)			IMG_0069_320x170 to 0073
 MUSIC_BACKGROUND_(0,0)		IMG_0079_320x170
 MUSIC_BOTTOM_(0,180)		IMG_0080_260x17
-BROWSER_BACKGROUND_(0,0)	IMG_0122_320x170
-RECORDER_RECORDING*_(*,7*)	IMG_0198_320x60  to 0209	/* Y pos 55 */
+BROWSER_BACKGROUND_(0,0)	IMG_0122_320x170			/* Ypos Ysize */
+RECORDER_RECORDING*_(*,7*)	IMG_0198_320x60  to 0209	/*   55  60 */
+														/* B 55  60 */
+														/* C 53  65 */
+														/* D 53  65 */
+														/* E 54  62 */
 SM_COM_VOLUME_000_(0,0)		IMG_0210_320x170
-SM_COM_VOLUME_00*_(0,0)		IMG_0211_320x59  to 0215	/* Y pos 56 */
+SM_COM_VOLUME_00*_(0,0)		IMG_0211_320x59  to 0215	/*   56  59 */
+														/* B 56  59 */
+														/* C 55  60 */
+														/* D 56  59 */
+														/* E 54  63 */
 SM_COM_VOLUME_008_(0,0)		IMG_0218_99x16
 SETMENU_USEREQSETTING_(0,0)	IMG_0353_320x170
 USB_DAC_(0,0)				IMG_0364_320x170
 USB_DATA_(0,0)				IMG_0365_320x170
-USB_DACSHOW*_(0,0)			IMG_0366_320x62  to 0370	/* Y pos 54 */
+USB_DACSHOW*_(0,0)			IMG_0366_320x62  to 0370	/*   54  62 */
 USB_PLAYER_(0,0)			IMG_0371_320x170
-USB_PLAYER*_(0,0)			IMG_0372_320x62  to 0376	/* Y pos 54 */
+USB_PLAYER*_(0,0)			IMG_0372_320x62  to 0376	/*   54  62 */
+														/* D 54  63 */
